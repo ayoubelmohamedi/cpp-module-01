@@ -20,6 +20,6 @@ public:
     Zombie* newZombie( std::string name );
     // creates a zombie, name it, and the zombie announces itself.
     void randomChump( std::string name );
-}
+};
 
 #endif
