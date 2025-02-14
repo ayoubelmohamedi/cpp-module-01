@@ -6,7 +6,7 @@
 /*   By: ael-moha <ael-moha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 13:30:42 by ael-moha          #+#    #+#             */
-/*   Updated: 2025/02/08 13:30:43 by ael-moha         ###   ########.fr       */
+/*   Updated: 2025/02/14 16:18:47 by ael-moha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 
 
-void randomChump( std::string name )
+void Zombie::randomChump( std::string name )
 {
     Zombie zombie(name);
     zombie.announce();
