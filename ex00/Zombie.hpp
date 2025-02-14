@@ -6,17 +6,16 @@
 /*   By: ael-moha <ael-moha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 13:30:46 by ael-moha          #+#    #+#             */
-/*   Updated: 2025/02/08 13:30:47 by ael-moha         ###   ########.fr       */
+/*   Updated: 2025/02/14 16:26:46 by ael-moha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ZOMBIE
+#ifndef ZOMBIE_HPP
 #define ZOMBIE_HPP
 
 
 #include <string>
 #include <iostream>
-
 
 class Zombie
 {
