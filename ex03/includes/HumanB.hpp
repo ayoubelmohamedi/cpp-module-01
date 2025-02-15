@@ -2,8 +2,8 @@
 
 
 
-#ifndef HUMANB
-#define HUMANB
+#ifndef HUMANB_HPP
+#define HUMANB_HPP
 
 #include <iostream>
 #include <string>
@@ -14,7 +14,8 @@ class HumanB
 {
     private:
         std::string name;
-        Weapon weapon;
+        bool has_weapon;
+        Weapon *w;
     
     public:
         //doesn't always have a weapon

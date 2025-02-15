@@ -5,17 +5,15 @@
 
 
 
-HumanA::HumanA(std::string name, Weapon &wp)
+HumanA::HumanA(std::string name, Weapon &wp) : weapon(wp)
 {
     this->name = name;
-    this->weapon  = wp;
 }
 
+HumanA::~HumanA() {};
 
-void attack(int *a);
+
+void HumanA::attack(void)
 {
-
-     *a 
-     a
-     &a
+    std::cout << this->name << " attacks with their " << this->weapon.getType() << std::endl;
 }

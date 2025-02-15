@@ -1,8 +1,8 @@
 
 
 
-#ifndef HUMANA
-#define HUMANA
+#ifndef HUMANA_HPP
+#define HUMANA_HPP
 
 #include <iostream>
 #include <string>
@@ -20,7 +20,6 @@ class HumanA
         ~HumanA();
         void attack(void);
 };
-
 
 
 #endif
