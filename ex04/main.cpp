@@ -16,7 +16,7 @@
 #include <string>
 
 
-// to impliment replace : check occurences, save pos, ,copy old line till pos, {past word} , repeat
+// to implement replace : check occurences, save pos, ,copy old line till pos, {past word} , repeat
 
 
 int main(int ac, char **av)
@@ -34,7 +34,7 @@ int main(int ac, char **av)
         std::cerr << "Error opening file for reading!" << std::endl;
         return (1);
     }
-    std::ofstream tmp_file(dest_file);
+    std::ofstream tmp_file(dest_file.c_str());
     if (!tmp_file) {
         std::cerr << "Error creating temporary buffer!" << std::endl;
         return (1);
